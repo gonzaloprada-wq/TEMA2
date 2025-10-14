@@ -27,19 +27,23 @@ public class Ejercicio4 {
 		//Aqui leo dicho numero
 		segundoNumero = reader.nextDouble();
 
-		//
-		if (primerNumero > segundoNumero) {
-			System.out.print("El mayor es: " + primerNumero);
-		}
-
+		//Aqui abro un IF para decidir si es mayor, menor o igual un numero del otro
+		if (primerNumero > segundoNumero) { 
+			
+			//Esto se imprimiria en el caso de que el primer numero sea mayor.
+			System.out.print("El mayor es: " + primerNumero);}
+		
+		//Aqui un else para justo lo contrario
 		else if (segundoNumero > primerNumero) {
-			System.out.print("El mayor es:_+ segundoNumero;");
-		}
-
+			
+			//Esto se imprimiria en el caso de que el segundo numero sea mayor.
+			System.out.print("El mayor es:_+ segundoNumero;");}
+		
+		//Aqui el else final para el caso de que sean iguales
 		else {
-			System.out.print("Los dos numeros son iguales");
-		}
-
+			//Esto se imprimiria en el caso de que los dos numeros sean iguales.
+			System.out.print("Los dos numeros son iguales");}
+		//cierro escaner
 		reader.close();
 	}
 }
