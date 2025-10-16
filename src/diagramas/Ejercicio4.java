@@ -43,7 +43,7 @@ public class Ejercicio4 {
 		else {
 			//Esto se imprimiria en el caso de que los dos numeros sean iguales.
 			System.out.print("Los dos numeros son iguales");}
-		//cierro escaner
+
 		reader.close();
 	}
 }
