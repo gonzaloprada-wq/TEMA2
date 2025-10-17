@@ -2,10 +2,9 @@ package diagramas;
 
 import java.util.Scanner;
 
-public class Ejercicio4 {
+public class Ejercicio7 {
 
 	public static void main(String[] args) {
-
 		//Creo un scanner para almacenar los siguientes dos valores
 		Scanner reader = new Scanner(System.in);
 
@@ -43,7 +42,8 @@ public class Ejercicio4 {
 		else {
 			//Esto se imprimiria en el caso de que los dos numeros sean iguales.
 			System.out.print("Los dos numeros son iguales");}
-
+		//cierro escaner
 		reader.close();
 	}
 }
+
