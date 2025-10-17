@@ -10,6 +10,8 @@ public class Ejercicio2 {
 	
 	Scanner reader = new Scanner(System.in);
 	
+	if (numero)
+	
 	
 
 		
