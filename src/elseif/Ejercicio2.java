@@ -8,26 +8,27 @@ public class Ejercicio2 {
 
 	public static void main(String[] args) {
 				
-	//Un int para la edad
-	int edad;
-				
-	//Creo un escaner para guardar los valores
+	//creo un double llamado numero
+		double numero;
+		
+	//Creamosun escaner para almacenar valores
 	Scanner reader = new Scanner (System.in);
-				
-
-	//Ask the question and read the variable.
-	System.out.println("Introduzca su edad: ");
 	
-	//Leo la edad
-	edad = reader.nextInt();
-				
-				//Set the conditional.
-				if (edad >= 18) {
-					System.out.println("Eres mayor de edad.");
-				}
-				
-				//Close the scanner
-				reader.close();
+	//Imprimimos la pregunta .
+	System.out.println("Introduzca un número decimal: ");
+		
+		//Guardamos la informacion
+		numero = reader.nextDouble();
+		
+		//HAcemos un if para.
+		if (numero > -1 && numero < 1 && numero != 0) {
+			System.out.println("El número es casi-cero.");
+		} else {
+			System.out.println("El número NO es casi-cero.");
+		}
+		
+		//Cerramos el scannner.
+		reader.close();
 }
 }
 
