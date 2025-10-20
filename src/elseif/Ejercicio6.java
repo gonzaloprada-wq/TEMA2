@@ -45,6 +45,7 @@ public class Ejercicio6 {
 			//Este caso da como resultado la solucion en negativo
 		} else {System.out.println("Dos numero no dan como resultado el otro");}
 		
+		
 		reader.close();
 }
 }
