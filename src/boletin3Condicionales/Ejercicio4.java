@@ -6,6 +6,17 @@ public class Ejercicio4 {
 
 	public static void main(String[] args) {
 
+		/*
+		 * valor ingresado=4+15=16
+		 * respùesta esperada=False
+		 * respuesta dada=False
+		 * 
+		 *valor ingresado=1+76=77
+		 * respùesta esperada=Correcto
+		 * respuesta dada=Correcto
+		 * 
+		 * */
+		
 		// creo un double para la suma debido a que mathrandom solo acepta double
 		int suma;
 

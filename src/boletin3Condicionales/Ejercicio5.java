@@ -6,6 +6,16 @@ public class Ejercicio5 {
 
 	public static void main(String[] args) {
 
+		/*
+		 * valor ingresado=562 y 23
+		 * respùesta esperada=57.5
+		 * respuesta dada=57.5
+		 * 
+		 *valor ingresado=2 800
+		 * respùesta esperada=2000
+		 * respuesta dada=2000
+		 * 
+		 * */
 		// creo un final dpuble para el precio por km;
 		final double PRECIO_KM = 2.5;
 

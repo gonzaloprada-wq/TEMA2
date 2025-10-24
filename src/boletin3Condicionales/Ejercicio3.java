@@ -5,6 +5,18 @@ import java.util.Scanner;
 public class Ejercicio3 {
 
 	public static void main(String[] args) {
+		
+		/*
+		 * valor ingresado=29587987
+		 * respùesta esperada=M
+		 * respuesta dada=M
+		 * 
+		 *valor ingresado=64645469
+		 * respùesta esperada=J
+		 * respuesta dada=J
+		 * 
+		 * */
+		
 		// Creo un int para el dni
 		int dni;
 

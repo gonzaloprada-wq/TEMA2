@@ -5,7 +5,16 @@ import java.util.Scanner;
 public class Ejercicio6 {
 
 	public static void main(String[] args) {
-
+		/*
+		 * valor ingresado=2007 y 4
+		 * respùesta esperada=Tiene 30 dias y no es año bisiesto
+		 * respuesta dada=Tiene 30 dias y no es año bisiesto
+		 * 
+		 *valor ingresado=2024 y 3
+		 * respùesta esperada=Tiene 31 dias y es año bisiesto
+		 * respuesta dada=Tiene 31 dias y es año bisiesto
+		 * 
+		 * */
 		//creo un int para almacenar el año 
 		int año;
 		
@@ -38,8 +47,9 @@ public class Ejercicio6 {
 			
 			case 2 -> {System.out.println("Tiene 29 dias y es año bisiesto");}
 			
-			case 4, 6, 9, 11 -> {System.out.println("Tiene 30 dias y es año bisiesto");}}
+			case 4, 6, 9, 11 -> {System.out.println("Tiene 30 dias y es año bisiesto");}
 			
+			default -> {System.out.println("Error");}}
 			}else {
 				
 				switch (mes) {
@@ -49,7 +59,8 @@ public class Ejercicio6 {
 				
 				case 2 -> {System.out.println("Tiene 28 dias y no es año bisiesto");}
 				
-				case 4, 6, 9, 11 -> {System.out.println("Tiene 30 dias y no es año bisiesto");}}
+				case 4, 6, 9, 11 -> {System.out.println("Tiene 30 dias y no es año bisiesto");}
+				default -> {System.out.println("Error");}}
 			}
 		//ciero escaner
 		reader.close();

@@ -5,7 +5,16 @@ import java.util.Scanner;
 public class Ejercicio2 {
 
 	public static void main(String[] args) {
-
+		/*
+		 * valor ingresado=45
+		 * respùesta esperada=45
+		 * respuesta dada=45
+		 * 
+		 *valor ingresado=-5
+		 * respùesta esperada=5
+		 * respuesta dada=5
+		 * 
+		 * */
 		//Creo un int para el numero
 		int numero;
 		
