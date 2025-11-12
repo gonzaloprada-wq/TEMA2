@@ -5,9 +5,11 @@ import java.util.Scanner;
 public class Ejercicio6 {
 
 	public static void main(String[] args) {
-
-		int nota;
 		
+		//Creo un int para notas
+		int nota; 
+		
+		//Creo un booleano para suspensos
 		boolean suspenso= false;
 		
 		Scanner reader = new Scanner(System.in);
