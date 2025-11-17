@@ -1,3 +1,4 @@
+
 package bucles;
 
 import java.util.Scanner;
@@ -76,6 +77,7 @@ public class Ejercicio1 {
 		// cierro escaner
 		reader.close();
 
-	}
+	}}
 
-}
+
+

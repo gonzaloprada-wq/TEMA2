@@ -1,51 +1,50 @@
 package dowhile;
 
 import java.util.Random;
-
 import java.util.Scanner;
 
 public class Ejercicio5 {
 
 	public static void main(String[] args) {
 
+		String respuesta;
 		int numeroAleatorio;
 		int menor = 1;
 		int mayor = 101;
-		String mayorMenor;
+		int correcto = 0;
 
-		Random random = new Random();
+		Random rand = new Random();
 
 		Scanner reader = new Scanner(System.in);
 
 		do {
 
-			numeroAleatorio = random.nextInt(menor, mayor + 1);
+			numeroAleatorio = rand.nextInt(menor, mayor);
 
-			System.out.println("El numero es: " + numeroAleatorio);
+			System.out.println("ES..? " + numeroAleatorio);
 
-			mayorMenor = reader.next();
+			respuesta = reader.next();
 
-			if (mayorMenor.equals("MAYOR")) {
+			if (respuesta.equals("MAYOR")) {
 
 				menor = numeroAleatorio + 1;
 
-			} else if (mayorMenor.equals("MENOR")) {
+			} else if (respuesta.equals("MENOR")) {
 
 				mayor = numeroAleatorio - 1;
 
-			} else if (mayorMenor.equals("IGUAL")) {
+			} else if (respuesta.equals("IGUAL")) {
 
-				System.out.println("Tu numero es " + numeroAleatorio);
+				System.out.println("Tu numero es: " + numeroAleatorio);
+
+				correcto = 1;
 
 			} else {
-
-				System.out.println("ERROR, Introduce valor valido (MAYOR, MENOR o IGUAL)");
+				System.out.println("ERROR");
 			}
-			;
 
-		} while (!mayorMenor.equals("IGUAL"));
+		} while (correcto == 0);
 
 		reader.close();
-
 	}
 }

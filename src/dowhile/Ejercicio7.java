@@ -1,3 +1,4 @@
+
 package dowhile;
 
 import java.util.Scanner;
@@ -60,3 +61,4 @@ public class Ejercicio7 {
 		reader.close();
 	}
 }
+
