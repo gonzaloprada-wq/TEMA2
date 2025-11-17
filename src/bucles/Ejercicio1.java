@@ -68,8 +68,8 @@ public class Ejercicio1 {
 					}
 				}
 			}
-		}
-		;
+		};
+		
 
 		// imprimo resultado
 		System.out.println(hora + ":" + minutos + ":" + segundos);
