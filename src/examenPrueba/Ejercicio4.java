@@ -25,7 +25,7 @@ public class Ejercicio4 {
 		for (int i = 0; i < lado; i++) {
 			
 			for(int k = aux1; k>=0; k--) {
-				System.out.print("1");
+				System.out.print(" ");
 			}
 			for(int h = 0; h<=aux2; h++) {
 				System.out.print("*");
@@ -36,12 +36,18 @@ public class Ejercicio4 {
 			System.out.println();
 		}
 		
+			aux1=lado*2+1;
+			aux2-=2;
 		for (int i = lado-1; i>0; i--) {
 			
-			for (int k = 3; k>0; k--) {
-				System.out.print("1");
+			for (int k = aux2; k>0; k--) {
+				System.out.print(" ");
+			}
+			for (int h = aux1; h>0; h--) {
+				System.out.print("*");
 			}
 			
+			System.out.println();
 		}
 			
 	}
